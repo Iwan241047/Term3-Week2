@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Terminal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgb(39, 73, 39);
+            color: white;
+            font-family: 'Press Start 2P', cursive;
+        }
+        p {
+            padding: 20px;
+        }
+        button
+        {
+            background-color: rgb(22, 23, 22);
+            color: white;
+            font-family: 'Press Start 2P', cursive;
+            height: 50px;
+        }
+    </style>
+</head>
+<body onload="RenameWelcomeHeader()">
+    <h1 id="FakeLogger">Welcome</h1>
+    <p id="logParagraph">This is a bit of text.</p>
+    <button onclick="execute()">Execute</button>
+
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
